@@ -1,0 +1,21 @@
+﻿Performance: Awesome,no lags and a slight bugs i found in the ZEN UI...i think that can be ignored..CPU heats a slight while using continous 3G(i guess it's the issue with many phones)...But less heating compared to Yureka...
+
+Zen UI: I have used Cyanogen OS and MIUI, I think Zen UI also has customiztion features like them..for eg.Themes,scrolling effects,and the quick settings,gestures(double tap one is awesome)...So overall it was a good experience on Zen UI also..
+There are some very good features: one hand operation mode in which the display becomes suitable for using us with one hand..even left hand person can use this feature..
+Reading Mode,vivid modes,floating calculator etc are some of the features i overcame..
+
+Display: Display is brilliant...in this price range no doubt for that...!(i haven't tested in sunlight)
+
+Loudspeaker: I found it loud..but... when we hold in our hand the loudspeaker gets covered..so it was not a good placement for the loudspeaker
+
+Volume rocker:It's an awesome placement of button...very handy..while taking selfies..and muting the alarm,calls.
+
+Camera:it is good but not excellent...in this price range..its the best...it has great filters and modes:GIF animation,time rewind,smart remove etc...which we wont find in this budget...overall it surpasses the Yureka and redmi's camera..(i haven't tested it in low light either..so can't tell about that)
+
+Build:Quality is best..though the back is plastic it feels like metal..it is just a normal brushed aluminium finish on a plastic case..which feels great and stylish..
+
+CONS:i found the ram usage a bit high when the phone is idle..it crosses 55%..sometimes..
+Few bugs in ZEN UI ...which can be fixed in small OTA update..
+camera is satisfactory or you can say above average..the phones in this range with 13mp camera are giving a grainy,non-superfine image..
+and i thought this model comes with a fast charger but it doesn't..disappointing..!
+and the lock button placement is not at all handy..i have set the double tap technique to overcome this issue..!
