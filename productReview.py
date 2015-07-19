@@ -19,7 +19,7 @@ import re
 
 def cleandata(mtext):
     mtext = re.sub(' +', ' ', mtext)
-    mtext = re.sub('\n+', ' ', mtext)
+    mtext = re.sub('\n+', '.', mtext)
     #mtext = re.sub('[0-9]+. ', '', mtext)
     mtext = re.sub(' -', '.', mtext)
     mtext = re.sub('\.+', '. ', mtext)
