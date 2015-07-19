@@ -172,19 +172,24 @@ def sentanalysis(text):
 
     sents = nltk.sent_tokenize(text)
     for sent in sents:
-        result[sent] = []
+        sent = sent.encode('utf-8')
+        #print sent
+        
         #print (sent)
         tokens = nltk.word_tokenize(sent)
         #tokens = [t for t in tokens if t not in stpwrds]
-        d = best_bigram_word_feats(tokens)
-        #d = {}
-        #for word in tokens:
-            #d[word] = True
-        dist = mc.prob_classify(d)
-        #for label in dist.samples():
-            #print("%s: %f" % (label, dist.prob(label)))
-        result[sent].append(dist.prob('pos'))
-        result[sent].append(dist.prob('neg'))
+        #print 'tokens: ', tokens 
+        if len(set(tokens))>1:
+            d = best_bigram_word_feats(tokens)
+            #d = {}
+            #for word in tokens:
+                #d[word] = True
+            dist = mc.prob_classify(d)
+            #for label in dist.samples():
+                #print("%s: %f" % (label, dist.prob(label)))
+            result[sent] = []
+            result[sent].append(dist.prob('pos'))
+            result[sent].append(dist.prob('neg'))
 
     return (complete, result)
 
