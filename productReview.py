@@ -155,10 +155,10 @@ mc = evaluate_classifier(best_bigram_word_feats)
 # In[16]:
 
 features = [('Cpu/Processor', ''),
-            ('Screen/Display', 'size/inch,resolution/ppi,type/ips/amoled'),
-            ('Battery', 'standby,life/day/hour/hrs/usage'),
-            ('Camera','front/selfie/secondary,rear/back/primary,flash,low light'),
-            ('RAM/Memory', 'expandable/sdcard,available'),
+            ('Screen/Display', 'size/inch,resolution/ppi/display,type/ips/amoled,touch/touchscreen,guard/protector,screen/glass/scratches'),
+            ('Battery', 'standby,life/day/hour/hrs/usage,capacity/backup'),
+            ('Camera','front/selfie/secondary,rear/back/primary,flash,low light,camera'),
+            ('RAM/Memory', 'expandable/sdcard/memory,ram/available'),
             ('Audio/Sound/Speaker', 'front/earpiece/call,back/loud,music/song,earphone/headphone'),
             ('Build/Design','metal/plastic/glass'),
             ('Heat/temperature', '')]
